@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #243047;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4568dc;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #243047;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 65vh;
+    padding: 100px 8%;
+    text-align: center;
+    background: linear-gradient(135deg, #e0eaff, #ffffff);
+}
+
+.label {
+    color: #4568dc;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: clamp(40px, 7vw, 68px);
+}
+
+.deskripsi {
+    max-width: 550px;
+    margin: 0 auto 25px;
+}
+
+button {
+    padding: 13px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #4568dc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #304eb5;
+}
+
+#pesan {
+    margin-top: 18px;
+    font-weight: bold;
+    color: #4568dc;
+}
+
+.tentang {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.tentang p {
+    margin-top: 12px;
+}
+
+footer {
+    padding: 22px;
+    text-align: center;
+    background: #243047;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 18px 5%;
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 80px 6%;
+    }
+}
